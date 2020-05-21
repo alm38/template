@@ -1,0 +1,18 @@
+version: '2.4'
+
+services:
+
+    deno:
+        build: .
+        ports:
+            - 3000:3000
+        volumes:
+            - .:/denoland/app
+
+
+
+
+
+
+
+
