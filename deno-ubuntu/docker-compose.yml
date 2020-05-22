@@ -2,8 +2,8 @@ version: '2.4'
 
 services:
 
-    deno-debian:
-        container_name: deno-debian
+    deno-ubuntu:
+        container_name: deno-ubuntu
         build: .
         ports:
             - 3000:3000

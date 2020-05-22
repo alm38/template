@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM ubuntu:focal
 
 RUN groupadd --gid 1000 gdeno \
   && useradd --uid 1000 --gid gdeno --shell /bin/bash --create-home udeno
